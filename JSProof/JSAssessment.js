@@ -13,35 +13,38 @@ const NFTHolder = []
 // this function will take in some values as parameters, create an
 // NFT object using the parameters passed to it for its metadata, 
 // and store it in the variable above.
-function mintNFT (_name, _eyeColor, _shirtType, _bling) {
+function mintNFT (_pokeName, _spriteColor, _pokeType, _sigMove) {
     const NFT = {
-        "name": _name,
-        "eyeColor": _eyeColor,
-        "shirtType": _shirtType,
-        "bling": _bling
+        "pokeName": _pokeName,
+        "spriteColor": _spriteColor,
+        "pokeType": _pokeType,
+        "sigMove": _sigMove
     }
     NFTHolder.push(NFT);
-    console.log("Minted: "+ _name);
+    console.log("Minted: "+ _pokeName);
 }
 
 // create a "loop" that will go through an "array" of NFT's
 // and print their metadata with console.log()
 function listNFTs () {
     for(let i = 0; i < NFTHolder.length; ++i){
-        console.log("Name: " + NFTHolder[i].name);
-        console.log("Eye color: " + NFTHolder[i].eyeColor);
-        console.log("Shirt type: " + NFTHolder[i].shirtType);
-        console.log("Bling: " + NFTHolder[i].bling);
+        console.log("\n");
+        console.log("Pokemon Name: \t\t" + NFTHolder[i].pokeName);
+        console.log("Sprite Color: \t\t" + NFTHolder[i].spriteColor);
+        console.log("Pokemon Type: \t\t" + NFTHolder[i].pokeType);
+        console.log("Signature Move: \t" + NFTHolder[i].sigMove);
     }
 }
 
 // print the total number of NFTs we have minted to the console
 function getTotalSupply() {
-    console.log(NFTHolder.length);
+    console.log("\nTotal number NFTs held: "+NFTHolder.length);
 }
 
 // call your functions below this line
 
-mintNFT("Ankit", "Black", "Tee", "Pendant");
+mintNFT("Pikachu", "Yellow", "Electric", "Thunderbolt");
+mintNFT("Charmander", "Orange", "Fire", "Flamethrower");
+mintNFT("Squirtle", "BLue", "Water", "Water Gun");
 listNFTs();
 getTotalSupply();
