@@ -28,7 +28,7 @@ function mintNFT (_pokeName, _spriteColor, _pokeType, _sigMove) {
 // and print their metadata with console.log()
 function listNFTs () {
     for(let i = 0; i < NFTHolder.length; ++i){
-        console.log("\n");
+        console.log();
         console.log("Pokemon Name: \t\t" + NFTHolder[i].pokeName);
         console.log("Sprite Color: \t\t" + NFTHolder[i].spriteColor);
         console.log("Pokemon Type: \t\t" + NFTHolder[i].pokeType);
