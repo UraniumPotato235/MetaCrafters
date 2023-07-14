@@ -1,6 +1,6 @@
 # Project Title
 
-Creating a Token in Solidity
+Demonstrate working of the require(), assert() and revert() statements.
 
 ## Description
 
