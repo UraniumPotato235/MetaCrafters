@@ -4,9 +4,11 @@ Demonstrate working of the require(), assert() and revert() statements.
 
 ## Description
 
-This solidity code is the solution to the assessment of module 1 of the "ETH PROOF: Intermediate ETH + AVAX Course" by Metacrafters. The requirements of the assessment is/are:
+This solidity code is the solution to the assessment of module 1 of the "ETH PROOF: Intermediate ETH + AVAX Course" by Metacrafters. The requirements of the assessment is:
+
 For this project, write a smart contract that implements the require(), assert(), and revert() statements.
-In this program, I have created a contract called "functionAndError" which contains a function called "fun()". This function takes an integer value, all three statements viz. assert(), revert() and require() will allow the complete execution only if the passed integer is positive, even, and greater than 20.
+
+In this program, I have created a contract called "functionAndError" which contains a function called "fun()". This function takes an integer value, all three statements viz. assert(), revert(), and require() will allow the complete execution only if the passed integer is positive, even, and greater than 20.
 
 ## Getting Started
 
