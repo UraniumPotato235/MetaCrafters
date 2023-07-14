@@ -1,0 +1,29 @@
+# Project Title
+
+Creating a Token in Solidity
+
+## Description
+
+This solidity code is the solution to the assessment of module 1 of the "ETH PROOF: Intermediate ETH + AVAX Course" by Metacrafters. The requirements of the assessment is/are:
+For this project, write a smart contract that implements the require(), assert() and revert() statements.
+
+## Getting Started
+
+### Executing Program
+
+To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
+
+Once you are on the Remix website, create a new file by clicking on the "+" icon in the left-hand sidebar. Save the file with a .sol extension (e.g., ETHProof.sol). Copy and paste the given code into the file.
+
+To compile the code, click on the "Solidity Compiler" tab in the left-hand sidebar. Make sure the "Compiler" option is set to "0.8.7" (or another compatible version), and then click on the "Compile ETHProof.sol" button.
+
+Once the code is compiled, you can deploy the contract by clicking on the "Deploy & Run Transactions" tab in the left-hand sidebar. Select the "ETHProof" contract from the dropdown menu, and then click on the "Deploy" button.
+
+Once the contract is deployed, you can interact with it by calling the sayHello function. 
+
+## Authors
+
+Contributors' names and contact info
+
+Ankit Kunwar  
+[@ankit04k](https://twitter.com/Ankit04K)
