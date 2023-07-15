@@ -1,7 +1,12 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8;
 
 // For this project, write a smart contract that implements the require(), assert() and revert() statements.
+// Functionality
+// Contract successfully uses require()
+// Contract successfully uses assert()
+// Contract successfully uses revert() statements
+
+pragma solidity ^0.8;
 
 contract functionAndError {
     function fun(int256 num) external pure returns (bool) {
